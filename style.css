@@ -1,0 +1,112 @@
+body {
+    background-color: #FFF6EA;
+    color: #EBD8C3;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: lighter;
+    font-family: 'Caveat', cursive;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: #4700D8; 
+   }
+a:hover {
+    transition: 0.3s;
+    color: #9900F0
+}
+
+h1, h2 {
+    color: #4700D8;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px
+}
+
+#ad-pp {
+width: 400px;
+border-radius: 50%;
+border: 2px solid #4700D8;
+box-shadow: 0px 5px 15px #4700D8;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+h1 { 
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 0px 5px 15px #4700D8;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+div {
+    border: 2px; color:#9900F0;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0px 15px 35px #9900F0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .sub-groups i { 
+       font-size: 70px;
+   }
+
+
+@media (max-width: 1400px) {
+    div {
+        width: 1000px;
+        margin: 50 px auto;
+        padding: 20px;
+        text-align: center;
+    }
+    }
+   
+    @media (max-width: 1000px) {
+        div {
+            width: 800px;
+            margin: 50 px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        }
+       
+@media (max-width: 750px) {
+    div {
+        width: 550px;
+        margin: 50 px auto;
+        padding: 20px;
+        text-align: center;
+    }
+    }
+
+@media (max-width: 500px) {
+div {
+    width: 350px;
+    margin: 50 px auto;
+    padding: 20px;
+    text-align: center;
+}
+}
